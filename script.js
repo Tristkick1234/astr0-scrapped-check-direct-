@@ -6,6 +6,15 @@ window.onload = function() {
 
 let header = document.querySelector("nav");
 let audio_file = new Audio("/photos/longrain.mp3");
-body.onmouseover = function(){
-    audio_file.play();
-}
+
+
+
+const hamburger = document.getElementsByClassName('hamburger')[0];
+const list = document.getElementsByClassName('list')[0];
+
+hamburger.addEventListener('click', () => {
+  list.classList.toggle('active');
+  
+    hamburger.classList.toggle('active');
+   
+})

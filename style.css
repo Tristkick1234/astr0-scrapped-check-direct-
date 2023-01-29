@@ -59,7 +59,7 @@ video{
    justify-content: center;
 }
 #lock_img{
-    width:18%;
+    width:10rem;
     padding:3rem;
 }
 /*all text within containers will be centered*/
@@ -80,3 +80,9 @@ video{
     padding:2rem;
 }
 
+
+
+#fourthslide>img{
+    width:50%;
+    text-align: center;
+}
